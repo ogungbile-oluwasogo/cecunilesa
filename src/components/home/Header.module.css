@@ -41,7 +41,9 @@
     cursor: pointer;
 }
 
-
+.mobileNavLinks {
+    display: none;
+}
 
 .icon {
     position: absolute;
