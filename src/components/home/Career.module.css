@@ -1,0 +1,105 @@
+.careerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.careerWrapper div {
+    width: 48%;
+}
+
+.careerWrapper div h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #012758;
+}
+
+.careerWrapper div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 10px 0px;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.careerWrapper div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    width: 205px;
+    height: 53px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0px;
+    background: #012758;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.careerWrapper div a:hover {
+    background: #023b86;
+}
+
+.careerWrapper div img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    object-position: top;
+}
+
+@media (max-width: 800px) {
+    .careerWrapper {
+        flex-direction: column-reverse;
+    }
+
+    .careerWrapper div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .careerWrapper div a {
+        width: 100%;
+    }
+
+    .careerWrapper div h1 {
+        font-size: 26px;
+    }
+    
+}
+
+@media (max-width: 530px) {
+    .careerWrapper div img {
+        height: 280px;
+    }
+
+    .careerWrapper div h1 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .careerWrapper div img {
+        height: 200px;
+    }
+
+    .careerWrapper div h1 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .careerWrapper div p {
+        font-size: 12px;
+    }
+}
