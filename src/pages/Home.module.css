@@ -1,0 +1,36 @@
+.homeWrapper {
+    width: 100%;
+}
+
+.homeWrapper .homeHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    background: rgba(0, 0, 128, 0.25);
+}
+
+.homeWrapper .homeHeading p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.homeWrapper .homeHeading p span {
+    padding: 0px 5px;
+}
+
+@media (max-width: 560px) {
+    .homeWrapper .homeHeading {
+        height: 50px;
+    }
+    .homeWrapper .homeHeading p {
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 17px;
+    }
+}

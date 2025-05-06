@@ -1,0 +1,82 @@
+.affiliatedWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin:10px auto;
+    margin-top: 40px;
+    height: 205px;
+    padding: 20px;
+    background: #D9D9D9;
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.affiliatedWrapper div img {
+    width: 200px;
+    height: 103px;
+    object-fit: cover;
+}
+
+.affiliatedWrapper .divFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.affiliatedWrapper .divFlex img {
+    width: 90px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.affiliatedWrapper .divFlex h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #002954;
+}
+
+.affiliatedWrapper .divFlex p {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #002954;
+}
+
+@media (max-width: 700px) {
+    .affiliatedWrapper .divFlex {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .affiliatedWrapper .divFlex div img {
+        width: 60px;
+        height: 80px;
+    }
+
+    .affiliatedWrapper .cecLogo img {
+        width: 150px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 460px) {
+    .affiliatedWrapper .divFlex h2 {
+        font-size: 11px;
+    }
+    
+    .affiliatedWrapper .divFlex p {
+        font-size: 10px;
+    }
+
+    .affiliatedWrapper .cecLogo img {
+        width: 130px;
+        height: 60px;
+    }
+
+    .affiliatedWrapper .divFlex div img {
+        width: 45px;
+        height: 60px;
+    }
+}

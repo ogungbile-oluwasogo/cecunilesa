@@ -1,0 +1,231 @@
+.learnWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 700px;
+    padding: 20px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.learnWrapper .innerFlex {
+    width: 50%;
+    overflow: hidden;
+}
+
+.learnWrapper .innerFlex img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 10px 0px;
+}
+
+.learnWrapper .gridLayout {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.gridLayout .item1 {
+    /* width: 682px; */
+    /* height: 242px; */
+    padding: 10px 10px;
+    background: #FF0000;
+}
+
+.gridLayout .item1 p{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.gridLayout .item1 span {
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.gridLayout .item2 {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    padding: 10px 10px;
+    background: #BFBFDF
+}
+
+.gridLayout .item2 p{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    text-align: center;
+    /* width: 200px; */
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.gridLayout .item3 {
+    padding: 10px 10px;
+    background: #D9D9D9
+}
+
+.gridLayout .item3 p{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.learnWrapper .innerFlex div h3 {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FF0000;
+}
+
+.learnWrapper .innerFlex .text p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.learnWrapper .innerFlex div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    width: 205px;
+    height: 53px;
+    text-decoration: none;
+    color: #fff;
+    margin: 20px 0px;
+    background: #012758;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.learnWrapper .innerFlex div a:hover {
+    background: #023b86;
+}
+
+.innerFlex .contactWrapper div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px;
+}
+
+.innerFlex .contactWrapper div p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+@media (max-width: 1240px) {
+    .learnWrapper .innerFlex img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: 10px 0px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .gridLayout .item1 p{
+        font-size: 28px;
+        line-height: 100%;
+    }
+    
+    .gridLayout .item1 span {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .gridLayout .item1 p{
+        font-size: 24px;
+        line-height: 100%;
+    }
+    
+    .gridLayout .item1 span {
+        font-size: 38px;
+    }
+
+    .gridLayout .item2 p {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 870px) {
+    .learnWrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .learnWrapper .innerFlex {
+        width: 100%;
+    }
+
+    .learnWrapper .innerFlex div a{
+        padding: 10px;
+        width: 100%
+    }
+}
+
+@media (max-width: 500px) {
+    .learnWrapper .innerFlex img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        object-position: 10px 0px;
+    }
+}
+
+@media (max-width: 460px) {
+    .gridLayout .item1 p{
+        font-size: 18px;
+        line-height: 100%;
+    }
+    
+    .gridLayout .item1 span {
+        font-size: 22px;
+    }
+
+    .gridLayout .item2 p {
+        font-size: 14px;
+    }
+
+    .gridLayout .item3 p{
+        font-size: 16px;
+    }
+
+    .innerFlex .contactWrapper div p {
+        font-size: 12px;
+    }
+  }
