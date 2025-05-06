@@ -79,14 +79,14 @@ useEffect(() => {
             </div>
         </div>
         <div className={`${styles.mobileMenu} ${isMobileMenuOPen ? styles.open : styles.close}`}>
-  <nav className={styles.mobileNavLinks}>
-    <a href="#bottom-section" onClick={handleScroll}>➤ Internships</a>
-    <a href="#bottom-section" onClick={handleScroll}>➤ Study and Work Abroad</a>
-    <a href="#bottom-section" onClick={handleScroll}>➤ Learn English</a>
-    <a href="#bottom-section" onClick={handleScroll}>➤ Admissions</a>
-    <a href="#bottom-section" onClick={handleScroll}>➤ Language Course</a>
-  </nav>
-</div>
+            <nav className={styles.mobileNavLinks}>
+                <a href="#bottom-section" onClick={handleScroll}>➤ Internships</a>
+                <a href="#bottom-section" onClick={handleScroll}>➤ Study and Work Abroad</a>
+                <a href="#bottom-section" onClick={handleScroll}>➤ Learn English</a>
+                <a href="#bottom-section" onClick={handleScroll}>➤ Admissions</a>
+                <a href="#bottom-section" onClick={handleScroll}>➤ Language Course</a>
+            </nav>
+        </div>
       </div>
     </>
   )
