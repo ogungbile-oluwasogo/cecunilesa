@@ -41,6 +41,10 @@
     cursor: pointer;
 }
 
+.heading .mobileMenu {
+    display: none;
+}
+
 .icon {
     position: absolute;
     transition: opacity 0.5s ease, transform 0.5s ease;
