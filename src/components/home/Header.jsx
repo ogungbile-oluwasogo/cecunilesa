@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import styles from './Header.module.css';
 import { useState, useEffect } from 'react';
 
@@ -36,11 +36,11 @@ useEffect(() => {
     <>
       <div className={styles.heading}>
         <div className={styles.innerHeading}>
-            <a href="https://unilesa.edu.ng">
+            <NavLink to='/'>
                 <div className={styles.logoWrapper}>
                     <img src="/unilesa_logo.png" alt="" />
                 </div>
-            </a>
+            </NavLink>
             <div>
                 <h2>University of Ilesa, </h2>
                 <p>Ilesa Osun State</p>
