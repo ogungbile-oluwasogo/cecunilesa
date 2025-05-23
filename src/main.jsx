@@ -8,6 +8,7 @@ import {
 import RouteLayouts from './layouts/RouteLayouts';
 import Home from './pages/Home';
 import Register from './pages/Register';
+import Internship from './pages/Internship';
 
 
 const router = createBrowserRouter([
@@ -20,8 +21,12 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: 'register',
+        path: 'nclex/register',
         element: <Register />,
+      },
+      {
+        path: 'internship',
+        element: <Internship />,
       }
     ],
   }

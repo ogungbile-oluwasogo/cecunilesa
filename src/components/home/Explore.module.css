@@ -52,7 +52,11 @@
     margin-bottom: 20px;
 }
 
-.displayToggle .planWrapper div a {
+.displayToggle .marginDiv {
+    margin: 20px 0px;
+}
+
+.displayToggle a {
     margin: 20px 10px;
     text-decoration: none;
     color: #fff;
@@ -62,7 +66,7 @@
     transition: ease-in-out 0.3s;
 }
 
-.displayToggle .planWrapper div a:hover {
+.displayToggle a:hover {
     background: #035ccf;
 }
 

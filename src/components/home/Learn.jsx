@@ -25,7 +25,7 @@ const Learn = () => {
             </p>
         </div>
         <div data-aos="fade-up">
-            <Link to='/register'>REGISTER NOW</Link>
+            <Link to='nclex/register'>REGISTER NOW</Link>
         </div>
         <div className={styles.contactWrapper} data-aos="fade-up">
             <div>

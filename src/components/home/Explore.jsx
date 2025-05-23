@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './Explore.module.css';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 const Explore = () => {
 
@@ -52,6 +53,9 @@ const Explore = () => {
             <li>Get two months of unpaid internship and four months of paid internship</li>
             <li>Interns earn between $5-$35 per hour for Remote interns and $3000-$4000 for On-site interns.</li>
         </ul>
+        <div className={styles.marginDiv}>
+            <Link to='internship'>Apply Now</Link>
+        </div>
       </div> }
       <hr />
       <div className={styles.flexExplore} data-aos="fade-up" onClick={toggleStudy}>
@@ -94,6 +98,9 @@ const Explore = () => {
             <li>One month of unpaid internship and after one month, employees will receive monthly payments.</li>
             <li>International Employability Test fee: $90</li>
         </ul>
+        <div className={styles.marginDiv}>
+            <Link to='nclex/register'>Apply Now</Link>
+        </div>
       </div> }
       <hr />
       <div className={styles.flexExplore} data-aos="fade-up" onClick={toggleLearn}>
